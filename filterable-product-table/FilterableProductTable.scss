@@ -1,0 +1,43 @@
+.filterable-product-table {
+  width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+  box-shadow: 3px 3px 3px 6px #ccc;
+
+  .search-bar {
+    margin-bottom: 6px;
+  }
+
+  .product-table {
+    &-header {
+      display: flex;
+      font-weight: 600;
+
+      .name {
+        width: 200px;
+      }
+      .price {
+        width: 400px;
+      }
+    }
+
+    .product-category-row {
+      font-weight: 600;
+    }
+
+    .product-row {
+      display: flex;
+
+      .name {
+        width: 200px;
+      }
+      .price {
+        width: 400px;
+      }
+      .stocked {
+        color: red;
+      }
+    }
+  }
+}
